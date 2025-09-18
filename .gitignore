@@ -8,3 +8,34 @@ echo "*.sqlite3" >> .gitignore
 echo "*.log" >> .gitignore
 echo ".env" >> .gitignore
 echo ".DS_Store" >> .gitignore
+
+
+# virtualenvs
+.venv/
+venv/
+env/
+
+# Python
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# Distribution / packaging
+build/
+dist/
+*.egg-info/
+
+# Editor/IDE
+.vscode/
+.idea/
+*.swp
+
+# Local env / secrets
+.env
+.env.*
+.secrets
+
+# OS
+.DS_Store
+Thumbs.db
